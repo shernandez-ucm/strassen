@@ -37,6 +37,8 @@ The tests were performed on a system running an Intel Core i7-5930K CPU with a b
 | 4096                 | Recursivo Threaded | 10082             | 25885              | 87388.1         | 87406.0          |
 
 
+\includepdf[pages=-]{execution_time_vs_matrix_size_log.pdf}
+
 ## TODO:
 
 Implement Strassen's $O(n^{\log_2 7})$ algorithm and compare result with recursive and iterative algorithms.
