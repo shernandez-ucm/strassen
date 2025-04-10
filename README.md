@@ -35,3 +35,8 @@ The tests were performed on a system running an Intel Core i7-5930K CPU with a b
 | 4096                 | Iterativo OpenMP   | 1869              | 186015             | 87388.1         | 87388.1          |
 | 4096                 | Recursivo          | 10078             | 163619             | 87388.1         | 87388.1          |
 | 4096                 | Recursivo Threaded | 10082             | 25885              | 87388.1         | 87406.0          |
+
+
+## TODO:
+
+Implement Strassen's $O(n^{\log_2 7})$ algorithm and compare result with recursive and iterative algorithms.
